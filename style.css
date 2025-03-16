@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.course {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course h2 {
+    margin-top: 0;
+}
+
+.course .price {
+    font-size: 18px;
+    color: #e67e22;
+}
+
+button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Verbergt de details sectie van de cursussen */
+.course-details {
+    display: none;
+    margin-top: 15px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Als er op de knop 'Meer info' wordt geklikt, wordt de details-sectie zichtbaar */
+.course.expanded .course-details {
+    display: block;
+}
+
+button {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+/* Zorg ervoor dat de footer altijd onderaan staat */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Zorgt ervoor dat de body minimaal de hoogte van het scherm heeft */
+    margin: 0;
+}
+
+.container {
+    flex: 1; /* Zorgt ervoor dat de container de beschikbare ruimte opvult */
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
